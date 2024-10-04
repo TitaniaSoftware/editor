@@ -148,8 +148,7 @@
 			<not><available file="${engine.lib.path}" type="dir" /></not>
 		</condition>
 	</fail>
-	
-	<!-- property name="build.sysclasspath" value="last"/ -->
+
     <!--
         This custom task writes checksum data for all files in a release build,
         from where it is used for auto updating
